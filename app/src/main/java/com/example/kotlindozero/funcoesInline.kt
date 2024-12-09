@@ -1,12 +1,8 @@
 package com.example.kotlindozero
 
-fun somar(): Int {
-    return 10
-
-}
+fun sub(): Int = 10-8
 
 fun main() {
-    val retorno = somar()
+    val retorno = sub()
     println(retorno*2)
-
 }
