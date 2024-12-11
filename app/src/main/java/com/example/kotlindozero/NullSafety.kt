@@ -1,6 +1,6 @@
 package com.example.kotlindozero
 
-class Carro{
+open class Carro{
     var cor = "Vermelho"
 
     fun acelerar (){
